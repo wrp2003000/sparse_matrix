@@ -2,7 +2,7 @@
 Sparse Matrix operation on spark （in coo format）
 
 
-# python/sparse_matrix.py:
+# python/src/sparse_matrix.py:
   SparseMatrix.multiply            ## 稀疏矩阵乘法  
   SparseMatrix.transpose           ## 矩阵转置    
   SparseMatrix.add                 ## 矩阵加法    
