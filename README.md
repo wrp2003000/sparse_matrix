@@ -1,15 +1,5 @@
 # sparse_matrix
 Sparse Matrix operation on spark （矩阵以coo格式存储）
-举例：
-  矩阵为[1,2,3;
-          2,3,4]
-  coo存储：
-    1,1,1
-    1,2,2
-    1,3,3
-    2,1,2
-    2,2,3
-    2,3,4
 
 
 # python/src/sparse_matrix.py:
