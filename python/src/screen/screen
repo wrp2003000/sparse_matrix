@@ -1,0 +1,8 @@
+enter test_multiply
+left_matrix:: [['user1', 'item1', '1'], ['user1', 'item3', '3'], ['user1', 'item4', '4'], ['user2', 'item1', '5'], ['user2', 'item2', '6'], ['user2', 'item4', '8'], ['user3', 'item1', '9'], ['user3', 'item2', '10']]
+right_matrix:: [['item1', 'user1', '1'], ['item3', 'user1', '3'], ['item4', 'user1', '4'], ['item1', 'user2', '5'], ['item2', 'user2', '6'], ['item4', 'user2', '8'], ['item1', 'user3', '9'], ['item2', 'user3', '10']]
+enter test_cosine_simi
+enter test_slpa
+enter test_pagerank
+<<	work finish
+任务正常执行

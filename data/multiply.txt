@@ -1,1 +1,8 @@
-
+user1	item1	1
+user1	item3	3
+user1	item4	4
+user2	item1	5
+user2	item2	6
+user2	item4	8
+user3	item1	9
+user3	item2	10

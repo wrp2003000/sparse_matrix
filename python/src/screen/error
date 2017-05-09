@@ -1,0 +1,274 @@
+17/05/09 19:40:30 INFO spark.SparkContext: Running Spark version 2.0.0
+17/05/09 19:40:30 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/05/09 19:40:31 WARN spark.SparkConf: Detected deprecated memory fraction settings: [spark.storage.memoryFraction, spark.shuffle.memoryFraction]. As of Spark 1.6, execution and storage memory management are unified. All memory fractions used in the old model are now deprecated and no longer read. If you wish to use the old memory management, you may explicitly enable `spark.memory.useLegacyMode` (not recommended).
+17/05/09 19:40:31 INFO spark.SecurityManager: Changing view acls to: wangruping
+17/05/09 19:40:31 INFO spark.SecurityManager: Changing modify acls to: wangruping
+17/05/09 19:40:31 INFO spark.SecurityManager: Changing view acls groups to: 
+17/05/09 19:40:31 INFO spark.SecurityManager: Changing modify acls groups to: 
+17/05/09 19:40:31 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(wangruping); groups with view permissions: Set(); users  with modify permissions: Set(wangruping); groups with modify permissions: Set()
+17/05/09 19:40:31 INFO util.Utils: Successfully started service 'sparkDriver' on port 44130.
+17/05/09 19:40:31 INFO spark.SparkEnv: Registering MapOutputTracker
+17/05/09 19:40:31 INFO spark.SparkEnv: Registering BlockManagerMaster
+17/05/09 19:40:31 INFO storage.DiskBlockManager: Created local directory at /data/spark/local/blockmgr-269a87c0-04dc-44fc-bad5-717dba7e43c1
+17/05/09 19:40:31 INFO memory.MemoryStore: MemoryStore started with capacity 398.7 MB
+17/05/09 19:40:31 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+17/05/09 19:40:31 INFO util.log: Logging initialized @1949ms
+17/05/09 19:40:31 INFO server.Server: jetty-9.2.z-SNAPSHOT
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@74889404{/jobs,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1d8edb38{/jobs/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@746d06e9{/jobs/job,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@131e118{/jobs/job/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@31a96d8e{/stages,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5a152798{/stages/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4653287d{/stages/stage,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4864288e{/stages/stage/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@32dbe911{/stages/pool,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@41813135{/stages/pool/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1ecef9b8{/storage,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@770792b7{/storage/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1af96e27{/storage/rdd,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5239fcd4{/storage/rdd/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3bd3dc12{/environment,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@700a63f5{/environment/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2153b385{/executors,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3c912427{/executors/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@19074ceb{/executors/threadDump,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3a3191f5{/executors/threadDump/json,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6c2c2ad{/static,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@33476e4e{/,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@10041cd9{/api,null,AVAILABLE}
+17/05/09 19:40:31 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@260c9915{/stages/stage/kill,null,AVAILABLE}
+17/05/09 19:40:31 INFO server.ServerConnector: Started ServerConnector@39dfcf06{HTTP/1.1}{0.0.0.0:4040}
+17/05/09 19:40:31 INFO server.Server: Started @2070ms
+17/05/09 19:40:31 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+17/05/09 19:40:31 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://10.30.139.50:4040
+17/05/09 19:40:32 WARN shortcircuit.DomainSocketFactory: The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+17/05/09 19:40:32 INFO client.RMProxy: Connecting to ResourceManager at hadoop-1/10.46.183.216:8032
+17/05/09 19:40:32 INFO yarn.Client: Requesting a new application from cluster with 20 NodeManagers
+17/05/09 19:40:32 INFO yarn.Client: Verifying our application has not requested more than the maximum memory capability of the cluster (25600 MB per container)
+17/05/09 19:40:32 INFO yarn.Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+17/05/09 19:40:32 INFO yarn.Client: Setting up container launch context for our AM
+17/05/09 19:40:32 INFO yarn.Client: Setting up the launch environment for our AM container
+17/05/09 19:40:32 INFO yarn.Client: Preparing resources for our AM container
+17/05/09 19:40:32 WARN yarn.Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+17/05/09 19:40:35 INFO yarn.Client: Uploading resource file:/data/spark/local/spark-2a1d7477-5ee4-4350-b5c0-dde685121f2f/__spark_libs__6994033280522145229.zip -> hdfs://hadoop-1:5000/user/wangruping/.sparkStaging/application_1493983461632_1983/__spark_libs__6994033280522145229.zip
+17/05/09 19:40:37 INFO yarn.Client: Uploading resource file:/opt/spark/python/lib/pyspark.zip -> hdfs://hadoop-1:5000/user/wangruping/.sparkStaging/application_1493983461632_1983/pyspark.zip
+17/05/09 19:40:37 INFO yarn.Client: Uploading resource file:/opt/spark/python/lib/py4j-0.10.1-src.zip -> hdfs://hadoop-1:5000/user/wangruping/.sparkStaging/application_1493983461632_1983/py4j-0.10.1-src.zip
+17/05/09 19:40:37 INFO yarn.Client: Uploading resource file:/data/spark/local/spark-2a1d7477-5ee4-4350-b5c0-dde685121f2f/__spark_conf__322152743398255348.zip -> hdfs://hadoop-1:5000/user/wangruping/.sparkStaging/application_1493983461632_1983/__spark_conf__.zip
+17/05/09 19:40:37 INFO spark.SecurityManager: Changing view acls to: wangruping
+17/05/09 19:40:37 INFO spark.SecurityManager: Changing modify acls to: wangruping
+17/05/09 19:40:37 INFO spark.SecurityManager: Changing view acls groups to: 
+17/05/09 19:40:37 INFO spark.SecurityManager: Changing modify acls groups to: 
+17/05/09 19:40:37 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(wangruping); groups with view permissions: Set(); users  with modify permissions: Set(wangruping); groups with modify permissions: Set()
+17/05/09 19:40:37 INFO yarn.Client: Submitting application application_1493983461632_1983 to ResourceManager
+17/05/09 19:40:37 INFO impl.YarnClientImpl: Submitted application application_1493983461632_1983
+17/05/09 19:40:37 INFO cluster.SchedulerExtensionServices: Starting Yarn extension services with app application_1493983461632_1983 and attemptId None
+17/05/09 19:40:38 INFO yarn.Client: Application report for application_1493983461632_1983 (state: ACCEPTED)
+17/05/09 19:40:38 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1494330037697
+	 final status: UNDEFINED
+	 tracking URL: http://hadoop-1:8088/proxy/application_1493983461632_1983/
+	 user: wangruping
+17/05/09 19:40:39 INFO yarn.Client: Application report for application_1493983461632_1983 (state: ACCEPTED)
+17/05/09 19:40:40 INFO yarn.Client: Application report for application_1493983461632_1983 (state: ACCEPTED)
+17/05/09 19:40:41 INFO yarn.Client: Application report for application_1493983461632_1983 (state: ACCEPTED)
+17/05/09 19:40:42 INFO yarn.Client: Application report for application_1493983461632_1983 (state: ACCEPTED)
+17/05/09 19:40:43 INFO cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(null)
+17/05/09 19:40:43 INFO cluster.YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> hadoop-1, PROXY_URI_BASES -> http://hadoop-1:8088/proxy/application_1493983461632_1983), /proxy/application_1493983461632_1983
+17/05/09 19:40:43 INFO ui.JettyUtils: Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+17/05/09 19:40:43 INFO yarn.Client: Application report for application_1493983461632_1983 (state: RUNNING)
+17/05/09 19:40:43 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 10.28.49.161
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1494330037697
+	 final status: UNDEFINED
+	 tracking URL: http://hadoop-1:8088/proxy/application_1493983461632_1983/
+	 user: wangruping
+17/05/09 19:40:43 INFO cluster.YarnClientSchedulerBackend: Application application_1493983461632_1983 has started running.
+17/05/09 19:40:43 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42356.
+17/05/09 19:40:43 INFO netty.NettyBlockTransferService: Server created on 10.30.139.50:42356
+17/05/09 19:40:43 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.30.139.50, 42356)
+17/05/09 19:40:43 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.30.139.50:42356 with 398.7 MB RAM, BlockManagerId(driver, 10.30.139.50, 42356)
+17/05/09 19:40:43 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.30.139.50, 42356)
+17/05/09 19:40:43 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3cbb512f{/metrics/json,null,AVAILABLE}
+17/05/09 19:40:47 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.28.49.161:50156) with ID 10
+17/05/09 19:40:47 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-007:36912 with 2.5 GB RAM, BlockManagerId(10, hadoop-007, 36912)
+17/05/09 19:40:49 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.27.34.143:50766) with ID 4
+17/05/09 19:40:49 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-013:33772 with 2.5 GB RAM, BlockManagerId(4, hadoop-013, 33772)
+17/05/09 19:40:50 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.30.248.171:47400) with ID 3
+17/05/09 19:40:50 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.30.141.141:46812) with ID 2
+17/05/09 19:40:50 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-017:40217 with 2.5 GB RAM, BlockManagerId(3, hadoop-017, 40217)
+17/05/09 19:40:50 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-014:38404 with 2.5 GB RAM, BlockManagerId(2, hadoop-014, 38404)
+17/05/09 19:40:54 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.25.156.153:55820) with ID 1
+17/05/09 19:40:54 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-006:41640 with 2.5 GB RAM, BlockManagerId(1, hadoop-006, 41640)
+17/05/09 19:40:56 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.30.248.179:59052) with ID 7
+17/05/09 19:40:56 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-018:34691 with 2.5 GB RAM, BlockManagerId(7, hadoop-018, 34691)
+17/05/09 19:40:59 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.25.94.74:44524) with ID 9
+17/05/09 19:40:59 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-020:39300 with 2.5 GB RAM, BlockManagerId(9, hadoop-020, 39300)
+17/05/09 19:41:00 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.24.197.7:46568) with ID 6
+17/05/09 19:41:00 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-019:43017 with 2.5 GB RAM, BlockManagerId(6, hadoop-019, 43017)
+17/05/09 19:41:00 INFO cluster.YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+17/05/09 19:41:00 INFO spark.SparkContext: Starting job: runJob at PythonRDD.scala:441
+17/05/09 19:41:00 INFO scheduler.DAGScheduler: Got job 0 (runJob at PythonRDD.scala:441) with 1 output partitions
+17/05/09 19:41:00 INFO scheduler.DAGScheduler: Final stage: ResultStage 0 (runJob at PythonRDD.scala:441)
+17/05/09 19:41:00 INFO scheduler.DAGScheduler: Parents of final stage: List()
+17/05/09 19:41:00 INFO scheduler.DAGScheduler: Missing parents: List()
+17/05/09 19:41:00 INFO scheduler.DAGScheduler: Submitting ResultStage 0 (PythonRDD[1] at RDD at PythonRDD.scala:48), which has no missing parents
+17/05/09 19:41:00 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.25.156.10:44226) with ID 8
+17/05/09 19:41:00 INFO memory.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 3.7 KB, free 398.7 MB)
+17/05/09 19:41:00 INFO memory.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 2.5 KB, free 398.7 MB)
+17/05/09 19:41:00 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.30.139.50:42356 (size: 2.5 KB, free: 398.7 MB)
+17/05/09 19:41:00 INFO spark.SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1012
+17/05/09 19:41:00 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (PythonRDD[1] at RDD at PythonRDD.scala:48)
+17/05/09 19:41:00 INFO cluster.YarnScheduler: Adding task set 0.0 with 1 tasks
+17/05/09 19:41:00 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-011:45368 with 2.5 GB RAM, BlockManagerId(8, hadoop-011, 45368)
+17/05/09 19:41:00 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, hadoop-018, partition 0, PROCESS_LOCAL, 5299 bytes)
+17/05/09 19:41:00 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 0 on executor id: 7 hostname: hadoop-018.
+17/05/09 19:41:00 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on hadoop-018:34691 (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:01 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(null) (10.25.157.190:44168) with ID 5
+17/05/09 19:41:01 INFO storage.BlockManagerMasterEndpoint: Registering block manager hadoop-004:33070 with 2.5 GB RAM, BlockManagerId(5, hadoop-004, 33070)
+17/05/09 19:41:02 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1657 ms on hadoop-018 (1/1)
+17/05/09 19:41:02 INFO cluster.YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: ResultStage 0 (runJob at PythonRDD.scala:441) finished in 1.669 s
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: Job 0 finished: runJob at PythonRDD.scala:441, took 1.869195 s
+17/05/09 19:41:02 INFO spark.SparkContext: Starting job: runJob at PythonRDD.scala:441
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: Got job 1 (runJob at PythonRDD.scala:441) with 1 output partitions
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: Final stage: ResultStage 1 (runJob at PythonRDD.scala:441)
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: Parents of final stage: List()
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: Missing parents: List()
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: Submitting ResultStage 1 (PythonRDD[2] at RDD at PythonRDD.scala:48), which has no missing parents
+17/05/09 19:41:02 INFO memory.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 3.7 KB, free 398.7 MB)
+17/05/09 19:41:02 INFO memory.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.5 KB, free 398.7 MB)
+17/05/09 19:41:02 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.30.139.50:42356 (size: 2.5 KB, free: 398.7 MB)
+17/05/09 19:41:02 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1012
+17/05/09 19:41:02 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (PythonRDD[2] at RDD at PythonRDD.scala:48)
+17/05/09 19:41:02 INFO cluster.YarnScheduler: Adding task set 1.0 with 1 tasks
+17/05/09 19:41:02 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, hadoop-017, partition 1, PROCESS_LOCAL, 5299 bytes)
+17/05/09 19:41:02 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 1 on executor id: 3 hostname: hadoop-017.
+17/05/09 19:41:02 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on hadoop-017:40217 (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 1991 ms on hadoop-017 (1/1)
+17/05/09 19:41:04 INFO cluster.YarnScheduler: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: ResultStage 1 (runJob at PythonRDD.scala:441) finished in 1.993 s
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Job 1 finished: runJob at PythonRDD.scala:441, took 2.001127 s
+17/05/09 19:41:04 INFO spark.SparkContext: Starting job: collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:25
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Got job 2 (collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:25) with 4 output partitions
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Final stage: ResultStage 2 (collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:25)
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Parents of final stage: List()
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Missing parents: List()
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Submitting ResultStage 2 (ParallelCollectionRDD[0] at parallelize at PythonRDD.scala:475), which has no missing parents
+17/05/09 19:41:04 INFO memory.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 1360.0 B, free 398.7 MB)
+17/05/09 19:41:04 INFO memory.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 898.0 B, free 398.7 MB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.30.139.50:42356 (size: 898.0 B, free: 398.7 MB)
+17/05/09 19:41:04 INFO spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1012
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Submitting 4 missing tasks from ResultStage 2 (ParallelCollectionRDD[0] at parallelize at PythonRDD.scala:475)
+17/05/09 19:41:04 INFO cluster.YarnScheduler: Adding task set 2.0 with 4 tasks
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2, hadoop-014, partition 0, PROCESS_LOCAL, 5497 bytes)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 2.0 (TID 3, hadoop-011, partition 1, PROCESS_LOCAL, 5497 bytes)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 2.0 (TID 4, hadoop-017, partition 2, PROCESS_LOCAL, 5497 bytes)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 2.0 (TID 5, hadoop-007, partition 3, PROCESS_LOCAL, 5500 bytes)
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 2 on executor id: 2 hostname: hadoop-014.
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 3 on executor id: 8 hostname: hadoop-011.
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 4 on executor id: 3 hostname: hadoop-017.
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 5 on executor id: 10 hostname: hadoop-007.
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on hadoop-017:40217 (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 2.0 (TID 4) in 30 ms on hadoop-017 (1/4)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on hadoop-014:38404 (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on hadoop-007:36912 (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on hadoop-011:45368 (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 376 ms on hadoop-014 (2/4)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 2.0 (TID 5) in 493 ms on hadoop-007 (3/4)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 2.0 (TID 3) in 500 ms on hadoop-011 (4/4)
+17/05/09 19:41:04 INFO cluster.YarnScheduler: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: ResultStage 2 (collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:25) finished in 0.502 s
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Job 2 finished: collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:25, took 0.508642 s
+17/05/09 19:41:04 INFO spark.SparkContext: Starting job: collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:26
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Got job 3 (collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:26) with 4 output partitions
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Final stage: ResultStage 3 (collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:26)
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Parents of final stage: List()
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Missing parents: List()
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Submitting ResultStage 3 (PythonRDD[3] at collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:26), which has no missing parents
+17/05/09 19:41:04 INFO memory.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 3.9 KB, free 398.7 MB)
+17/05/09 19:41:04 INFO memory.MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 2.5 KB, free 398.7 MB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.30.139.50:42356 (size: 2.5 KB, free: 398.7 MB)
+17/05/09 19:41:04 INFO spark.SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1012
+17/05/09 19:41:04 INFO scheduler.DAGScheduler: Submitting 4 missing tasks from ResultStage 3 (PythonRDD[3] at collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:26)
+17/05/09 19:41:04 INFO cluster.YarnScheduler: Adding task set 3.0 with 4 tasks
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 3.0 (TID 6, hadoop-017, partition 0, PROCESS_LOCAL, 5497 bytes)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 3.0 (TID 7, hadoop-014, partition 1, PROCESS_LOCAL, 5497 bytes)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 3.0 (TID 8, hadoop-011, partition 2, PROCESS_LOCAL, 5497 bytes)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 3.0 (TID 9, hadoop-020, partition 3, PROCESS_LOCAL, 5500 bytes)
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 6 on executor id: 3 hostname: hadoop-017.
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 7 on executor id: 2 hostname: hadoop-014.
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 8 on executor id: 8 hostname: hadoop-011.
+17/05/09 19:41:04 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Launching task 9 on executor id: 9 hostname: hadoop-020.
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_0_piece0 on 10.30.139.50:42356 in memory (size: 2.5 KB, free: 398.7 MB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on hadoop-017:40217 (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on hadoop-014:38404 (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_0_piece0 on hadoop-018:34691 in memory (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:04 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 3.0 (TID 6) in 36 ms on hadoop-017 (1/4)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_2_piece0 on 10.30.139.50:42356 in memory (size: 898.0 B, free: 398.7 MB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_2_piece0 on hadoop-014:38404 in memory (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_2_piece0 on hadoop-017:40217 in memory (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_2_piece0 on hadoop-011:45368 in memory (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_2_piece0 on hadoop-007:36912 in memory (size: 898.0 B, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_1_piece0 on 10.30.139.50:42356 in memory (size: 2.5 KB, free: 398.7 MB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Removed broadcast_1_piece0 on hadoop-017:40217 in memory (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:04 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on hadoop-011:45368 (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:05 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on hadoop-020:39300 (size: 2.5 KB, free: 2.5 GB)
+17/05/09 19:41:05 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 3.0 (TID 7) in 858 ms on hadoop-014 (2/4)
+17/05/09 19:41:05 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 3.0 (TID 9) in 1075 ms on hadoop-020 (3/4)
+17/05/09 19:41:08 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 3.0 (TID 8) in 3917 ms on hadoop-011 (4/4)
+17/05/09 19:41:08 INFO cluster.YarnScheduler: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+17/05/09 19:41:08 INFO scheduler.DAGScheduler: ResultStage 3 (collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:26) finished in 3.921 s
+17/05/09 19:41:08 INFO scheduler.DAGScheduler: Job 3 finished: collect at /data/home/wangruping/offline0/wangruping/mysrc/sparse_matrix/python/src/main.py:26, took 3.944518 s
+17/05/09 19:41:08 INFO server.ServerConnector: Stopped ServerConnector@39dfcf06{HTTP/1.1}{0.0.0.0:4040}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@260c9915{/stages/stage/kill,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@10041cd9{/api,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@33476e4e{/,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@6c2c2ad{/static,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@3a3191f5{/executors/threadDump/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@19074ceb{/executors/threadDump,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@3c912427{/executors/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@2153b385{/executors,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@700a63f5{/environment/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@3bd3dc12{/environment,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@5239fcd4{/storage/rdd/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@1af96e27{/storage/rdd,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@770792b7{/storage/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@1ecef9b8{/storage,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@41813135{/stages/pool/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@32dbe911{/stages/pool,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4864288e{/stages/stage/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@4653287d{/stages/stage,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@5a152798{/stages/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@31a96d8e{/stages,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@131e118{/jobs/job/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@746d06e9{/jobs/job,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@1d8edb38{/jobs/json,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO handler.ContextHandler: Stopped o.s.j.s.ServletContextHandler@74889404{/jobs,null,UNAVAILABLE}
+17/05/09 19:41:08 INFO ui.SparkUI: Stopped Spark web UI at http://10.30.139.50:4040
+17/05/09 19:41:08 INFO cluster.YarnClientSchedulerBackend: Interrupting monitor thread
+17/05/09 19:41:08 INFO cluster.YarnClientSchedulerBackend: Shutting down all executors
+17/05/09 19:41:08 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+17/05/09 19:41:08 INFO cluster.SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+17/05/09 19:41:08 INFO cluster.YarnClientSchedulerBackend: Stopped
+17/05/09 19:41:08 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+17/05/09 19:41:08 INFO memory.MemoryStore: MemoryStore cleared
+17/05/09 19:41:08 INFO storage.BlockManager: BlockManager stopped
+17/05/09 19:41:08 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+17/05/09 19:41:08 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+17/05/09 19:41:08 INFO spark.SparkContext: Successfully stopped SparkContext
+17/05/09 19:41:09 INFO util.ShutdownHookManager: Shutdown hook called
+17/05/09 19:41:09 INFO util.ShutdownHookManager: Deleting directory /data/spark/local/spark-2a1d7477-5ee4-4350-b5c0-dde685121f2f
+17/05/09 19:41:09 INFO util.ShutdownHookManager: Deleting directory /data/spark/local/spark-2a1d7477-5ee4-4350-b5c0-dde685121f2f/pyspark-a7dec3e0-54b7-4d22-8e9a-8dcf6a8e7b08
